@@ -1,0 +1,4 @@
+.card__like-button_active {
+  background-image: url(../../../../images/like-button_active.svg);
+  animation: opacity 0.5s ease;
+}

@@ -1,0 +1,25 @@
+.info__name {
+  max-width: 490px;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 48px;
+  margin: 0 18px 0 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@media (max-width: 910px) and (min-width: 770px) {
+  .info__name {
+    max-width: 400px;
+    font-size: 32px;
+    line-height: 37px;
+  }
+}
+@media (max-width: 770px) and (min-width: 300px) {
+  .info__name {
+    text-align: center;
+    max-width: 280px;
+    font-size: 22px;
+    line-height: 26px;
+  }
+}

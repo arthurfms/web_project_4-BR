@@ -1,0 +1,25 @@
+.add-button {
+  max-width: 150px;
+  width: 100%;
+  min-width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.75s ease;
+}
+
+@media (hover: hover) {
+  .add-button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+}
+@media (max-width: 770px) and (min-width: 300px) {
+  .add-button {
+    max-width: 282px;
+  }
+}

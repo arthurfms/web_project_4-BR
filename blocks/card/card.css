@@ -1,0 +1,10 @@
+.card {
+  position: relative;
+  background-color: #fff;
+  width: 282px;
+  height: 361px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  animation: opacity 1.5s ease;
+}

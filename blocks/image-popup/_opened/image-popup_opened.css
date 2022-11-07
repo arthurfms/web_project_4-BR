@@ -1,0 +1,4 @@
+.image-popup_opened {
+  display: grid;
+  animation: opacity 0.5s ease;
+}

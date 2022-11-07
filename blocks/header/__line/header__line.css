@@ -1,0 +1,12 @@
+.header__line {
+  margin-top: 41px;
+  width: 100%;
+  opacity: 0.7;
+  border: 1px solid #545454;
+}
+
+@media (max-width: 770px) and (min-width: 300px) {
+  .header__line {
+    margin-top: 32px;
+  }
+}

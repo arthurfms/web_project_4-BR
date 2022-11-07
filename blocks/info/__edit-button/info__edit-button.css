@@ -1,0 +1,32 @@
+.info__edit-button {
+  align-self: center;
+  width: 24px;
+  height: 24px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.75s ease;
+}
+@media (hover: hover) {
+  .info__edit-button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 910px) and (min-width: 770px) {
+  .info__edit-button {
+    align-self: center;
+    width: 21px;
+    height: 21px;
+  }
+}
+@media (max-width: 770px) and (min-width: 300px) {
+  .info__edit-button {
+    align-self: center;
+    width: 18px;
+    height: 18px;
+  }
+}

@@ -1,0 +1,8 @@
+.card__details {
+  grid-row: 2;
+  max-width: 246px;
+  display: grid;
+  grid-template-columns: 95% 5%;
+  align-items: center;
+  justify-content: center;
+}

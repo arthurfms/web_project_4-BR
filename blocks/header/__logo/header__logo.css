@@ -1,0 +1,18 @@
+.header__logo {
+  width: 173px;
+  height: 33px;
+}
+@media (max-width: 910px) and (min-width: 770px) {
+  .header__logo {
+    margin-left: 13.5px;
+    width: 149.5px;
+    height: 28.5px;
+  }
+}
+@media (max-width: 770px) and (min-width: 300px) {
+  .header__logo {
+    margin-left: 27px;
+    width: 126px;
+    height: 24px;
+  }
+}

@@ -1,0 +1,10 @@
+.info__details {
+  grid-row: 1;
+  display: flex;
+  min-width: 280px;
+}
+@media (max-width: 770px) and (min-width: 300px) {
+  .info__details {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,18 @@
+.image-popup__close-image {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+@media (hover: hover) {
+  .image-popup__close-image:hover {
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 770px) and (min-width: 300px) {
+  .image-popup__close-image {
+    width: 26px;
+    height: 26px;
+  }
+}
